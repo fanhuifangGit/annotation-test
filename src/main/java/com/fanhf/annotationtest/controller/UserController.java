@@ -24,7 +24,12 @@ public class UserController {
     @Autowired
     private UserService userService;
     /**
-     * 对密码加密
+     * 我写了4个接口，前2个接口是对应切面SafetyAspect
+     * 后2个接口是对应SafetyAspectPlus
+     */
+
+    /**
+     * 1、对密码加密
      */
     @PostMapping(value = "/encrypt")
     @Encrypt
@@ -33,7 +38,7 @@ public class UserController {
     }
 
     /**POST
-     * 对密码解密
+     * 2、对密码解密
      * 解密之后是用userBean来接
      */
     @PostMapping(value = "/decrypt")
@@ -42,9 +47,8 @@ public class UserController {
         return (JSONObject) JSONObject.toJSON(userBean);
     }
 
-
     /**POST
-     * 对密码解密后处理后再加密
+     * 3、对密码解密后处理后再加密
      * 解密之后是用userBean来接
      */
     @PostMapping(value = "/ende")
@@ -56,6 +60,7 @@ public class UserController {
     }
 
     /**
+     *  4、加解密
      * @date 2020/11/6 17:58
      * @return JSONObject
      * 说明：这个接口是无法正常放回加密后的数据，原因是参数和返回值不一致

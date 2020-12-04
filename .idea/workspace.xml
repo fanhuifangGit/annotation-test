@@ -9,37 +9,109 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin1" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3f99a5e-f606-42e4-8787-9e1d00db41f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/annotation/Decrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/annotation/Encrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/aspectj/SafetyAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/aspectj/SafetyAspectPlus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/bean/EncryptBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/bean/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/bean/UserBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/utils/AesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/utils/RsaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/templates.jsp" afterDir="false" />
+    <list default="true" id="e3f99a5e-f606-42e4-8787-9e1d00db41f6" name="Default Changelist" comment="添加注释">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/annotation/ParamsNotNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/annotation/sqlannotation/CreateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/annotation/sqlannotation/Deleted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/annotation/sqlannotation/UpdateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/interceptor/CheckParamsInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/interceptor/DBTimeInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/interceptor/InterceptorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/interceptor/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fanhf/annotationtest/DecryptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fanhf/annotationtest/EnResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fanhf/annotationtest/EncryptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seq-gen/src/test/java/com/ai/nrjf/RedisListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wordtopdf/wordtopdf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotation-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/annotation-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/aspectj/SafetyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/aspectj/SafetyAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/utils/AesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/utils/AesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fanhf/annotationtest/AnnotationTestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fanhf/annotationtest/AnnotationTestApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fanhf/annotationtest/aspectj/SafetyAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanhf/annotationtest/aspectj/SafetyAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fanhf/annotationtest/aspectj/SafetyAspectPlus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanhf/annotationtest/aspectj/SafetyAspectPlus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fanhf/annotationtest/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanhf/annotationtest/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fanhf/annotationtest/AnnotationTestApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fanhf/annotationtest/AnnotationTestApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/config/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/logs/demo.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/out/artifacts/demo_jar/demo.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/logs/seq_all.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/logs/seq_errorc.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/logs/seq_warn.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/src/main/java/com/ai/nrjf/nrjf/BootApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/src/main/java/com/ai/nrjf/nrjf/bean/RspBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/src/main/java/com/ai/nrjf/nrjf/controller/RedisControlLer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/src/main/java/com/ai/nrjf/nrjf/service/RedisService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/src/main/java/com/ai/nrjf/nrjf/service/RedisServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/src/main/java/com/ai/nrjf/nrjf/util/CommonUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/src/main/java/com/ai/nrjf/nrjf/util/RedisUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/src/main/resources/luaScript/genSeq.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen-seq/src/test/java/com/ai/nrjf/LuaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/config/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/config/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/config/luaScript/genSeq.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/logs/ots-error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/logs/seq_all.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/logs/seq_errorc.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/logs/seq_warn.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/src/main/java/com/ai/nrjf/GenseqApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/src/main/java/com/ai/nrjf/bean/RspBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/src/main/java/com/ai/nrjf/controller/RedisControlLer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/src/main/java/com/ai/nrjf/service/RedisService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/src/main/java/com/ai/nrjf/service/RedisServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/src/main/java/com/ai/nrjf/util/CommonUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/src/main/java/com/ai/nrjf/util/ReadConfigsPathUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/src/main/java/com/ai/nrjf/util/RedisUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/src/main/resources/luaScript/genSeq.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/src/test/java/com/ai/nrjf/LuaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genseq/src/test/java/com/ai/nrjf/PathTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seq-gen/src/test/java/com/ai/nrjf/SendJsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../seq-gen/src/test/java/com/ai/nrjf/SendJsonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seqgen.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +121,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -78,16 +150,20 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.fanhf.annotationtest" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\tools\IDEA\workspaces\annotation-test\src\main\resources" />
     </key>
@@ -95,14 +171,68 @@
       <recent name="D:\tools\IDEA\workspaces\annotation-test\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="Application.AesUtil">
+    <configuration name="AesUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fanhf.annotationtest.utils.AesUtil" />
+      <module name="annotation-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fanhf.annotationtest.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessDataFunc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fanhf.annotationtest.utils.BusinessDataFunc" />
+      <module name="annotation-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fanhf.annotationtest.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecryptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fanhf.annotationtest.decrypt.DecryptTest" />
+      <module name="annotation-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fanhf.annotationtest.decrypt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecryptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fanhf.annotationtest.DecryptTest" />
+      <module name="annotation-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fanhf.annotationtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncryptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fanhf.annotationtest.encrypt.EncryptTest" />
+      <module name="annotation-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fanhf.annotationtest.encrypt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,6 +244,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DecryptTest" />
+        <item itemvalue="Application.EncryptTest" />
+        <item itemvalue="Application.AesUtil" />
+        <item itemvalue="Application.BusinessDataFunc" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -123,8 +261,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604895939489</updated>
-      <workItem from="1604895941946" duration="5829000" />
+      <workItem from="1604895941946" duration="10719000" />
+      <workItem from="1605084932445" duration="1276000" />
+      <workItem from="1605144333465" duration="5547000" />
+      <workItem from="1605493034197" duration="8782000" />
+      <workItem from="1606110618025" duration="9051000" />
+      <workItem from="1606139941575" duration="2273000" />
+      <workItem from="1606188962507" duration="4262000" />
+      <workItem from="1606267656341" duration="2875000" />
+      <workItem from="1606314117292" duration="864000" />
+      <workItem from="1606354035068" duration="1650000" />
+      <workItem from="1606356896842" duration="18000" />
+      <workItem from="1606356967971" duration="886000" />
+      <workItem from="1606359315990" duration="1252000" />
+      <workItem from="1606790456172" duration="7000" />
+      <workItem from="1606886779649" duration="4018000" />
+      <workItem from="1606890859787" duration="303000" />
+      <workItem from="1606891216409" duration="733000" />
     </task>
+    <task id="LOCAL-00001" summary="提交修改">
+      <created>1604905445398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604905445398</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加注释">
+      <created>1604908715902</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604908715902</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,89 +309,278 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交修改" />
+    <MESSAGE value="添加注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加注释" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1604902004501">
+    <state x="718" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1606887492163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="718" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604902004501" />
+    <state x="718" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606887492163" />
+    <state x="347" y="431" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606890003107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="347" y="431" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606890003107" />
+    <state x="675" y="367" width="570" height="318" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606890019125">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="675" y="367" width="570" height="318" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1606890019125" />
+    <state x="675" y="381" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1606890005553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="675" y="381" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1606890005553" />
     <state x="624" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604904745881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="624" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604904745881" />
-    <state width="520" height="582" key="DebuggerActiveHint" timestamp="1604902957802">
+    <state x="697" y="579" key="#com.intellij.tools.ToolEditorDialog" timestamp="1605147171753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="520" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1604902957802" />
-    <state x="651" y="138" key="FileChooserDialogImpl" timestamp="1604896420265">
+    <state x="697" y="579" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605147171753" />
+    <state width="1510" height="582" key="DebuggerActiveHint" timestamp="1606118588253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="138" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604896420265" />
-    <state width="1867" height="332" key="GridCell.Tab.0.bottom" timestamp="1604904231056">
+    <state width="1510" height="582" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1606118588253" />
+    <state x="651" y="138" key="FileChooserDialogImpl" timestamp="1606115613805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604904231056" />
-    <state width="1867" height="332" key="GridCell.Tab.0.center" timestamp="1604904231056">
+    <state x="651" y="138" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606115613805" />
+    <state width="1867" height="289" key="GridCell.Tab.0.bottom" timestamp="1606890821006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="332" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604904231056" />
-    <state width="1867" height="332" key="GridCell.Tab.0.left" timestamp="1604904231056">
+    <state width="1867" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606890821006" />
+    <state width="1867" height="289" key="GridCell.Tab.0.center" timestamp="1606890821006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="332" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604904231056" />
-    <state width="1867" height="332" key="GridCell.Tab.0.right" timestamp="1604904231056">
+    <state width="1867" height="289" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606890821006" />
+    <state width="1867" height="289" key="GridCell.Tab.0.left" timestamp="1606890821006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="332" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604904231056" />
-    <state width="1867" height="332" key="GridCell.Tab.1.bottom" timestamp="1604904231057">
+    <state width="1867" height="289" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606890821006" />
+    <state width="1867" height="289" key="GridCell.Tab.0.right" timestamp="1606890821006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="332" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604904231057" />
-    <state width="1867" height="332" key="GridCell.Tab.1.center" timestamp="1604904231057">
+    <state width="1867" height="289" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606890821006" />
+    <state width="1867" height="208" key="GridCell.Tab.1.bottom" timestamp="1606129549260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="332" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604904231057" />
-    <state width="1867" height="332" key="GridCell.Tab.1.left" timestamp="1604904231056">
+    <state width="1867" height="208" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606129549260" />
+    <state width="1867" height="208" key="GridCell.Tab.1.center" timestamp="1606129549260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="332" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604904231056" />
-    <state width="1867" height="332" key="GridCell.Tab.1.right" timestamp="1604904231057">
+    <state width="1867" height="208" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606129549260" />
+    <state width="1867" height="208" key="GridCell.Tab.1.left" timestamp="1606129549260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="332" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604904231057" />
-    <state width="1867" height="332" key="GridCell.Tab.2.bottom" timestamp="1604904231057">
+    <state width="1867" height="208" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606129549260" />
+    <state width="1867" height="208" key="GridCell.Tab.1.right" timestamp="1606129549260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="332" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604904231057" />
-    <state width="1867" height="332" key="GridCell.Tab.2.center" timestamp="1604904231057">
+    <state width="1867" height="208" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606129549260" />
+    <state width="1867" height="208" key="GridCell.Tab.2.bottom" timestamp="1605522297913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="332" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604904231057" />
-    <state width="1867" height="332" key="GridCell.Tab.2.left" timestamp="1604904231057">
+    <state width="1867" height="208" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605522297913" />
+    <state width="1867" height="208" key="GridCell.Tab.2.center" timestamp="1605522297913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="332" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604904231057" />
-    <state width="1867" height="332" key="GridCell.Tab.2.right" timestamp="1604904231057">
+    <state width="1867" height="208" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605522297913" />
+    <state width="1867" height="208" key="GridCell.Tab.2.left" timestamp="1605522297913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="332" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604904231057" />
-    <state x="19" y="0" width="1828" height="883" key="SettingsEditor" timestamp="1604896422641">
+    <state width="1867" height="208" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605522297913" />
+    <state width="1867" height="208" key="GridCell.Tab.2.right" timestamp="1605522297913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="19" y="0" width="1828" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604896422641" />
+    <state width="1867" height="208" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605522297913" />
+    <state x="0" y="183" key="Maven.ArtifactSearchDialog" timestamp="1605494899908">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="183" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605494899908" />
+    <state x="61" y="55" width="1828" height="883" key="SettingsEditor" timestamp="1605147177970">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="61" y="55" width="1828" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605147177970" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605514972810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605514972810" />
+    <state x="564" y="375" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604910385525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="564" y="375" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604910385525" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1606888796796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/1920.-360.2048.1112@0.0.1920.1040" timestamp="1606314328892" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606888796796" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/controller/UserController.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/aspectj/SafetyAspect.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/aspectj/SafetyAspect.java</url>
-          <line>117</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/interceptor/CheckParamsInterceptor.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/interceptor/CheckParamsInterceptor.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/interceptor/CheckParamsInterceptor.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/interceptor/CheckParamsInterceptor.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/interceptor/CheckParamsInterceptor.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/interceptor/CheckParamsInterceptor.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/interceptor/CheckParamsInterceptor.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/encrypt/EncryptTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/encrypt/EncryptTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/encrypt/EncryptTest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/encrypt/EncryptTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/encrypt/EncryptTest.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/encrypt/EncryptTest.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/encrypt/EncryptTest.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/encrypt/EncryptTest.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/encrypt/EncryptTest.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/encrypt/EncryptTest.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/decrypt/DecryptTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/decrypt/DecryptTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/decrypt/DecryptTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/decrypt/DecryptTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/decrypt/DecryptTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/decrypt/DecryptTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/decrypt/DecryptTest.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/decrypt/DecryptTest.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/decrypt/DecryptTest.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/decrypt/DecryptTest.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/decrypt/DecryptTest.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/decrypt/DecryptTest.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/decrypt/DecryptTest.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/decrypt/DecryptTest.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
