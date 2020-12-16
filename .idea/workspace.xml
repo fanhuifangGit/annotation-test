@@ -14,43 +14,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3f99a5e-f606-42e4-8787-9e1d00db41f6" name="Default Changelist" comment="添加注释">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/annotation/ParamsNotNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/annotation/sqlannotation/CreateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/annotation/sqlannotation/Deleted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/annotation/sqlannotation/UpdateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/interceptor/CheckParamsInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/interceptor/DBTimeInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/interceptor/InterceptorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/interceptor/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fanhf/annotationtest/DecryptTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fanhf/annotationtest/EnResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/fanhf/annotationtest/EncryptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/annotation/NoPrintLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code-gen" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../seq-gen/src/test/java/com/ai/nrjf/RedisListTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wordtopdf/wordtopdf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/annotation-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/annotation-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/aspectj/SafetyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/aspectj/SafetyAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/utils/AesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fanhf/annotationtest/utils/AesUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/fanhf/annotationtest/AnnotationTestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fanhf/annotationtest/AnnotationTestApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanhf/annotationtest/aspectj/SafetyAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanhf/annotationtest/aspectj/SafetyAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanhf/annotationtest/aspectj/SafetyAspectPlus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanhf/annotationtest/aspectj/SafetyAspectPlus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fanhf/annotationtest/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fanhf/annotationtest/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fanhf/annotationtest/AnnotationTestApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fanhf/annotationtest/AnnotationTestApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fanhf/annotationtest/DecryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fanhf/annotationtest/DecryptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fanhf/annotationtest/EncryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fanhf/annotationtest/EncryptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fanhf/annotationtest/DecryptTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fanhf/annotationtest/DecryptTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/fanhf/annotationtest/EncryptTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/fanhf/annotationtest/EncryptTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
@@ -155,7 +129,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -171,7 +145,7 @@
       <recent name="D:\tools\IDEA\workspaces\annotation-test\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AesUtil">
+  <component name="RunManager" selected="Application.DecryptTest (1)">
     <configuration name="AesUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fanhf.annotationtest.utils.AesUtil" />
       <module name="annotation-test" />
@@ -185,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BusinessDataFunc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fanhf.annotationtest.utils.BusinessDataFunc" />
+    <configuration name="DecryptTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fanhf.annotationtest.DecryptTest" />
       <module name="annotation-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fanhf.annotationtest.utils.*" />
+          <option name="PATTERN" value="com.fanhf.annotationtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,6 +198,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EncryptTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fanhf.annotationtest.EncryptTest" />
+      <module name="annotation-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fanhf.annotationtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EncryptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fanhf.annotationtest.encrypt.EncryptTest" />
       <module name="annotation-test" />
@@ -246,10 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecryptTest (1)" />
+        <item itemvalue="Application.EncryptTest (1)" />
         <item itemvalue="Application.DecryptTest" />
         <item itemvalue="Application.EncryptTest" />
         <item itemvalue="Application.AesUtil" />
-        <item itemvalue="Application.BusinessDataFunc" />
       </list>
     </recent_temporary>
   </component>
@@ -278,6 +266,14 @@
       <workItem from="1606886779649" duration="4018000" />
       <workItem from="1606890859787" duration="303000" />
       <workItem from="1606891216409" duration="733000" />
+      <workItem from="1607092461801" duration="1192000" />
+      <workItem from="1607181157042" duration="172000" />
+      <workItem from="1607249791805" duration="671000" />
+      <workItem from="1607304528977" duration="855000" />
+      <workItem from="1607481659385" duration="112000" />
+      <workItem from="1607482139407" duration="294000" />
+      <workItem from="1607653270709" duration="1079000" />
+      <workItem from="1608098161525" duration="989000" />
     </task>
     <task id="LOCAL-00001" summary="提交修改">
       <created>1604905445398</created>
@@ -349,22 +345,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="651" y="138" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606115613805" />
-    <state width="1867" height="289" key="GridCell.Tab.0.bottom" timestamp="1606890821006">
+    <state width="1867" height="296" key="GridCell.Tab.0.bottom" timestamp="1607662746422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606890821006" />
-    <state width="1867" height="289" key="GridCell.Tab.0.center" timestamp="1606890821006">
+    <state width="1867" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607662746422" />
+    <state width="1867" height="296" key="GridCell.Tab.0.center" timestamp="1607662746422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="289" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606890821006" />
-    <state width="1867" height="289" key="GridCell.Tab.0.left" timestamp="1606890821006">
+    <state width="1867" height="296" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607662746422" />
+    <state width="1867" height="296" key="GridCell.Tab.0.left" timestamp="1607662746422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="289" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606890821006" />
-    <state width="1867" height="289" key="GridCell.Tab.0.right" timestamp="1606890821006">
+    <state width="1867" height="296" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607662746422" />
+    <state width="1867" height="296" key="GridCell.Tab.0.right" timestamp="1607662746422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="289" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606890821006" />
+    <state width="1867" height="296" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607662746422" />
     <state width="1867" height="208" key="GridCell.Tab.1.bottom" timestamp="1606129549260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -401,10 +397,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="183" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605494899908" />
-    <state x="61" y="55" width="1828" height="883" key="SettingsEditor" timestamp="1605147177970">
+    <state x="61" y="55" width="1828" height="883" key="SettingsEditor" timestamp="1607249849584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="61" y="55" width="1828" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605147177970" />
+    <state x="61" y="55" width="1828" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607249849584" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605514972810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

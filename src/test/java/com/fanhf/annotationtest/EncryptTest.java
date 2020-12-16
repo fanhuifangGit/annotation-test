@@ -22,13 +22,14 @@ public class EncryptTest {
     //公钥可以从AesUtil中获取
     private static final String PUBLICKEY = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCFPAl46zbxORotc/trXhbOhBUNVVm+LnCMwRe+USN7fO4i71gjnvqTSZ2S0SOS0W5Gx4JysmtfG051wpFyNVqBmZVzQ6TEY33rx+xaeSFTLLBnu4yp1H9HVD8MeIPSqQj16YDnD+tbOBVe8KdZgluv0kSfd+IVwVMRbE2HcVtpuQIDAQAB";
     static String iv = "d22b0a851e014f7b";
-//
-//    public static void  main(String[] args) throws Exception {
-//        //{"name":"fanny","age":"18"}
+
+    public static void  main(String[] args) throws Exception {
+        //{"name":"fanny","age":"18"}
 //        String json = "{\"name\":\"fanny\",\"age\":\"18\"}";
-//        com.fanhf.annotationtest.encrypt.EncryptTest EncryptTest = new com.fanhf.annotationtest.encrypt.EncryptTest();
-//        EncryptTest.exec(json);
-//    }
+        String json = "undefined";
+        EncryptTest EncryptTest = new EncryptTest();
+        EncryptTest.exec(json);
+    }
 
     public EnResult exec(String json) {
         EnResult result = new EnResult();
